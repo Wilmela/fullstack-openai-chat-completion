@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo_wrapper {
+  @apply flex  justify-center items-center;
+}
+
+.paddingX {
+  @apply px-4 md:px-8 lg:px-12 xl:px-20;
+}
+.nav {
+  @apply w-full flex items-center justify-between;
+}
+.git_btn {
+  @apply max-w-[80px] w-[80px] rounded-md flex items-center justify-center bg-black text-gray-300 py-1.5 px-2 hover:bg-slate-900 cursor-pointer border-none font-boska;
+}
+
+.input_bar {
+  @apply w-full p-2 border rounded-md focus:border-blue-200 outline-none;
+}
+.headingText {
+  @apply font-bold text-4xl md:text-5xl lg:text-6xl font-boska;
+}
+.subHeadingText {
+  @apply font-semibold text-gray-600 text-xl md:text-2xl lg:text-3xl font-boska;
+}
+.desc {
+  @apply font-light text-[16px] text-gray-600 leading-6 font-boska;
+}
+.display_wrapper {
+  @apply w-full lg:w-8/12 h-auto flex flex-col items-center my-6;
+}
+.question_wrapper {
+  @apply w-full flex items-center justify-start overflow-hidden;
+}
+.question {
+  @apply text-gray-900 border p-2 rounded-md font-boska font-semibold bg-gray-200;
+}
+.answer_wrapper {
+  @apply w-full flex items-center justify-start mt-4 overflow-hidden rounded-md bg-gray-300;
+}
+.answer {
+  @apply  p-2 rounded-md font-boska font-light leading-7 text-gray-900  ;
+}
